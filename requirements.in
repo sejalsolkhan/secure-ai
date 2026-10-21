@@ -1,0 +1,14 @@
+# Imported third-party packages for the offline research scripts.
+# This is NOT the original March environment, a lock file, or a tested install.
+# Resolve mutually compatible torch/torchvision/torchaudio versions and older
+# APIs (e.g. torchvision ConvNormActivation and sklearn TSNE n_iter) before use.
+numpy
+pandas
+scipy
+scikit-learn
+torch
+torchvision
+torchaudio
+matplotlib
+seaborn
+openpyxl

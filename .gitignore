@@ -1,0 +1,38 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+*.swp
+
+# Credentials and editor state
+.env
+.env.*
+.idea/
+.vscode/
+
+# External datasets, checkpoints, and generated embedding caches
+datasets/*
+!datasets/README.md
+*.wav
+*.mp3
+*.flac
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+*.xlsx
+*.xls
+embeddings_test_set/
+figures_generated/
+
+# Only the four selected frozen result files and their README are tracked.
+outputs/*
+!outputs/README.md
+!outputs/all_samples_T8p57_th0p54_coswara_20260318_145415_mahal_corrected.csv
+!outputs/summary_temp_scaling_coswara_20260318_145415_mahal_corrected.csv
+!outputs/all_samples_T3p82_th0p60_esc50_20260317_234844_mahal_corrected.csv
+!outputs/summary_temp_scaling_esc50_20260317_234844_mahal_corrected.csv

@@ -1,0 +1,23 @@
+=== TEMPERATURE SCALING + MAHALANOBIS (CORRECTED) ===,
+Dataset,coswara
+Timestamp,20260318_145415
+METHODOLOGY,Params fitted on VALIDATION set only
+,
+=== OPTIMIZED PARAMETERS (from Validation) ===,
+Optimal Temperature,8.5709
+Optimal Threshold,0.5400
+Optimal Mahalanobis Threshold,40.00
+Original Threshold,0.7
+,
+=== CLASSIFICATION (TEST SET ONLY) ===,,
+Metric,Original,Recalibrated
+Accuracy,0.7818,0.8295
+Precision,0.5056,0.5994
+Recall,0.8284,0.7023
+Specificity,0.7684,0.8658
+F1,0.6280,0.6468
+,
+=== CALIBRATION (TEST SET ONLY) ===,,
+Metric,Original,Recalibrated
+ECE,0.4130,0.3108
+Confidence Gap,-0.1632,-0.0260
